@@ -10,6 +10,11 @@ from Empdatabase import(
     delete_employee_data,
     )
 
+col1, col2  = st.columns(2, gap="xxlarge", border=True, width="stretch",vertical_alignment="top" )
+with  col1:
+    st.write("Hello world")
+with col2:
+    st.write('Hello India')
 
 #set page config
 st.set_page_config(
